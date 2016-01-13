@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-segmentio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper around segment.io JS library for Ember.",
   "directories": {
     "doc": "doc",
