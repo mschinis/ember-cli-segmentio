@@ -3,9 +3,6 @@
 
 module.exports = {
   name: 'ember-cli-segmentio',
-  afterInstall: function(){
-    return this.addBowerPackageToProject('analytics');
-  },
   included: function(app){
     this._super.included(app);
 
