@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-segmentio",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A wrapper around segment.io JS library for Ember.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/mschinis/ember-cli-segmentio",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Michael Schinis",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -38,7 +38,10 @@
     "ember-try": "~0.0.8"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "segment",
+    "segmentio",
+    "analytics"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
