@@ -6,9 +6,16 @@ module.exports = {
   included: function(app){
     this._super.included(app);
 
-    app.import(app.bowerDirectory + '/analytics/analytics.min.js');
+    app.import('./vendor/analytics.js');
   },
   isDevelopingAddon: function() {
     return true;
+  },
+  contentFor: function(type,config){
+    if(type === 'body-footer'){
+      if(config.segment && config.segment.WRITE_KEY){
+        return '<script>analytics.load(\''+config.segment.WRITE_KEY+'\')</script>'
+      }
+    }
   }
 };
