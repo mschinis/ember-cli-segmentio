@@ -1,9 +1,10 @@
 import Ember from 'ember';
+import config from 'ember-get-config';
 
 export default Ember.Service.extend({
   init(){
     // Get configuration and cache it in the service.
-    this.set('config', this.container.lookupFactory('config:environment'));
+    this.set('config', config);
     return this._super(...arguments);
   },
 
