@@ -35,7 +35,6 @@
     "ember-disable-prototype-extensions": "^1.0.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
-    "ember-get-config": "^0.2.4",
     "ember-getowner-polyfill": "1.0.0",
     "ember-try": "~0.0.8"
   },
@@ -47,7 +46,8 @@
   ],
   "dependencies": {
     "ember-cli": "^2.3.0",
-    "ember-cli-babel": "^6.6.0"
+    "ember-cli-babel": "^5.1.5",
+    "ember-get-config": "^0.2.4"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
