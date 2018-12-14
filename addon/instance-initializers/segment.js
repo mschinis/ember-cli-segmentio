@@ -1,5 +1,3 @@
-import getOwner from 'ember-getowner-polyfill';
-
 export function initialize(appInstance) {
   const segment = appInstance.lookup('service:segment');
 
